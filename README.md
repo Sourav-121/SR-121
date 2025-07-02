@@ -79,24 +79,25 @@ The encryption process follows a position-aware and key-based mapping system. He
    Calculate the transformed index using:  
    
 
-\[
-   N_i = (x_i + \left\lfloor \frac{k}{2} \right\rfloor) \mod 36
-   \]
 
+  ` Ni = (xi + ⌊(K/2)⌋ } mod 36 `
+   
 
-   where `k` is the key .
+    
+   where `K` is the key , ⌊(k/2)⌋ will give the floor value the result after dividing key by 2.
 
 4. **Now Encrypt using the following formula:**  
    
 
-\[
-   C_i = \left( K_i + \left( (N_i + 121) \mod 36 \right) \right) \mod 36
-   \]
+`
+Ci= [Ki + {(Ni+121) mod 36}] mod 36  
+`
 
 
+where, `Ki` is the position value of the ` i-th `digit of the key. 
 
 5. **Map to encrypted character:**  
-   Use the value `Ci` from  the position table.
+   Use the value of `Ci` from  the position table.
 
 ---
 
