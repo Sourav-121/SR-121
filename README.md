@@ -29,7 +29,7 @@
 
 ### 🧑‍🏫 Submitted To
 
-  **Name:** Pankaj Bhowmik  
-  **Designation:** Lecturer  
-  **Department:** Computer Science and Engineering
+ - **Name:** Pankaj Bhowmik  
+ - **Designation:** Lecturer  
+ - **Department:** Computer Science and Engineering
 
