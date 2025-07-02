@@ -38,3 +38,19 @@
 ### 🧠 Algorithm Philosophy:
 SR is a custom-designed symmetric cryptographic algorithm developed to encrypt and decrypt messages composed of letters and digits. It is designed for secure handling of variable-length input. 
 
+---
+
+## ✨ Core Functionalities:
+
+- **Symmetric Encryption**  
+  Uses the same transformation logic for both encryption and decryption, ensuring perfect reversibility without complex key exchanges.
+
+- **Letter & Digit Support**  
+  Fully supports alphanumeric characters, including uppercase/lowercase letters (`A–Z`, `a–z`) and numerical digits (`0–9`).
+
+- **Flexible Input Size**  
+  Capable of encrypting and decrypting strings of any length, from single characters to full sentences or codes.
+
+- **Custom Logic**  
+  Built on original algorithmic principles designed by the author, ideal for educational, experimental, and lightweight cryptographic applications.
+
