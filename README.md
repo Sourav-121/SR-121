@@ -6,10 +6,11 @@
 <h3 align="center">Dinajpur-5200</h3>
 
 ---
-
-# 🔐 SR-121
-### A Symmetric Letter-Digit Cryptographic Algorithm
-
-SR-121 is a lightweight symmetric encryption method designed to securely transform letters and digits using custom logic for encoding and decoding. Ideal for compact, efficient ciphers in resource-limited environments.
-
+<h1 align="center" style=" font-size: 2.5rem;
+      background: linear-gradient(to right, #06b6d4, #6366f1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;"><strong>🔐 SR-121</strong></h1>
+<p style="font-size: 1.2rem;
+      color: #94a3b8;">A Symmetric Letter-Digit Cryptographic Algorithm</p>
 
