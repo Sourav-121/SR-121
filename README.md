@@ -6,6 +6,6 @@
 <h3 align="center">Dinajpur-5200</h3>
 
 ---
-<h1 align="center"><strong><img src="./image1.png"> SR-121</strong></h1>
+<h1 align="center"><strong><img src="./image1.png" width="50"> SR-121</strong></h1>
 <p align="center">A Symmetric Letter-Digit Cryptographic Algorithm</p>
 
