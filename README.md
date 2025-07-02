@@ -80,8 +80,9 @@ The encryption process follows a position-aware and key-based mapping system. He
    
 <br>
 
-  ` Ni = (xi + ⌊(K/2)⌋ } mod 36 `
-
+```text
+   Ni = (xi + ⌊(K/2)⌋ } mod 36 
+```
 <br>
     
    where `K` is the key , ⌊(k/2)⌋ will give the floor value of the result after dividing the key by 2.
@@ -89,9 +90,10 @@ The encryption process follows a position-aware and key-based mapping system. He
 <br>
 
 4. **Now Encrypt using the following formula:**  
-   
-`Ci= [Ki + {(Ni+121) mod 36}] mod 36`
 
+```text   
+Ci= [Ki + {(Ni+121) mod 36}] mod 36
+```
 <br>
 
 where, `Ki` is the position value of the ` i-th `digit of the key. 
