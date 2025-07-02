@@ -7,4 +7,7 @@
 
 --
 
-# SR-121 : A Symmetric Letter-Digit Encryption Algorithm
+# 🔐 Algorithm Name
+
+**SR-121** : A Symmetric Letter-Digit Cryptographic Algorithm
+
