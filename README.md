@@ -104,7 +104,7 @@ where, `Ki` is the position value of the ` i-th `digit of the key.
 
 ---
 
-## 🔓 Decryption Process (SR Algorithm)
+## 🔓 Decryption Process
 
 The decryption process reverses the encryption logic to accurately retrieve the original plaintext character using modular arithmetic and positional offsets.
 
