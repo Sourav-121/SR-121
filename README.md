@@ -93,9 +93,7 @@ The encryption process follows a position-aware and key-based mapping system. He
    
 <br>
 <br>
-`
-Ci= [Ki + {(Ni+121) mod 36}] mod 36  
-`
+`    Ci= [Ki + {(Ni+121) mod 36}] mod 36    `
 <br>
 <br>
 
