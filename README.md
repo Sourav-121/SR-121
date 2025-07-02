@@ -51,13 +51,8 @@ SR-121 is a custom-designed symmetric cryptographic algorithm developed to encry
 - **Flexible Input Size**  
   Capable of encrypting and decrypting strings of any length, from single characters to full sentences or codes.
 
-  **Key Configuration**  
-  
-Key should meet the following requirements:
-
-- It must be a positive number greater than 9.
-
-- It must not exceed the length of the input text.
+ - **Key Configuration**  
+   key must be a positive number greater than 9 and it must not exceed the length of the input text.
 
 - **Custom Logic**  
   Built on original algorithmic principles designed by the author, ideal for educational, experimental, and lightweight cryptographic applications.
