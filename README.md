@@ -58,5 +58,5 @@ SR is a custom-designed symmetric cryptographic algorithm developed to encrypt a
 
 ---
 
-## Encryption-Decryption Table: 
+## Position Table: 
 <img src="./table.png">
