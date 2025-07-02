@@ -36,8 +36,7 @@
 ---
 
 ### Description:
-<p style="margin-left: 20px">
-SR is a custom-designed symmetric cryptographic algorithm developed to encrypt and decrypt messages composed of letters and digits. It is designed for clarity, flexibility, and secure handling of variable-length input
-  
+<p style="margin-left: 40px;">
+SR is a custom-designed symmetric cryptographic algorithm developed to encrypt and decrypt messages composed of letters and digits. It is designed for secure handling of variable-length input.  
 </p>
 
