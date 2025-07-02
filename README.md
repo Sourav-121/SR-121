@@ -11,13 +11,13 @@
 
 ---
 
-### Course Information
+### 📚️ Course Information
 - **Course Title:** Mathematical Analysis for Computer Science  
 - **Course Code:** CSE 361  
 
 ---
 
-### Submitted By
+### 🧑‍🏫 Submitted By
 
 - **Name:** Sourav Roy  
 - **Student ID:** 2102008  
@@ -27,7 +27,7 @@
 
   ---
 
-### 🧑‍🏫 Submitted To
+### 🧑‍💼 Submitted To
 
  - **Name:** Pankaj Bhowmik  
  - **Designation:** Lecturer  
@@ -40,7 +40,7 @@ SR-121 is a custom-designed symmetric cryptographic algorithm developed to encry
 
 ---
 
-## ✨ Core Functionalities:
+## 💡 Core Functionalities:
 
 - **Symmetric Encryption**  
   Uses the same transformation logic for both encryption and decryption, ensuring perfect reversibility without complex key exchanges.
@@ -58,7 +58,7 @@ SR-121 is a custom-designed symmetric cryptographic algorithm developed to encry
 
 ---
 
-## Position Table: 
+## 🍉 Position Table: 
 <img src="./table.png">
 
 ---
@@ -138,14 +138,14 @@ Mi={Ni – ⌊(K/2)⌋ }mod 36
 
 ---
 
-# Test case (Example):
+# 🧪 Test case (Example):
 
 ```text
 Plaintext= CSE 361
 key= 4635
 ```
 
-## Encryption: 
+## 🔑 Encryption: 
 
 **Repeat key to match the length: 463546 , Ki is the i-th position of the repeated key.**
 
@@ -160,7 +160,7 @@ Ciphertext=WEX OQN
 
 ---
 
-## Decryption: 
+## 🔓️ Decryption: 
 
 **Repeat key to match the length: 463546 , Ki is the i-th position of the repeated key.**
 <img src="./photos/Decryption.png">
@@ -175,14 +175,14 @@ Decrypted text = CSE 361
 
 ---
 
-# Flowchart: 
+# 🌺 Flowchart: 
 <img src="./Encryption_Decryption_Flowchart.png">
 
 ---
 
 ---
 
-# Source Code (Python):
+# 🍓 Source Code (Python):
 
 ```text
 
