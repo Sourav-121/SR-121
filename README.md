@@ -76,14 +76,12 @@ The encryption process follows a position-aware and key-based mapping system. He
    Repeat or truncate the key's digits to match the length of the plaintext. Let `Ki` be the digit at position *i* in the extended key.
 
 3. **Compute new position according to key:**  
-   Calculate the transformed index using:  
+   Calculate the transformed index using:
    
-<br>
 <br>
 
   ` Ni = (xi + ⌊(K/2)⌋ } mod 36 `
-   
-<br>
+
 <br>
     
    where `K` is the key , ⌊(k/2)⌋ will give the floor value of the result after dividing the key by 2.
@@ -92,9 +90,7 @@ The encryption process follows a position-aware and key-based mapping system. He
 4. **Now Encrypt using the following formula:**  
    
 <br>
-<br>
 `    Ci= [Ki + {(Ni+121) mod 36}] mod 36    `
-<br>
 <br>
 
 where, `Ki` is the position value of the ` i-th `digit of the key. 
