@@ -4,3 +4,7 @@
 
 <h2 align="center"><strong>Hajee Mohammad Danesh Science and Technology University</strong></h2>
 <h3 align="center">Dinajpur-5200</h3>
+
+--
+
+# SR-121 : A Symmetric Letter-Digit Encryption Algorithm
