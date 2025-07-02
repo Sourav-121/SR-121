@@ -54,3 +54,9 @@ SR is a custom-designed symmetric cryptographic algorithm developed to encrypt a
 - **Custom Logic**  
   Built on original algorithmic principles designed by the author, ideal for educational, experimental, and lightweight cryptographic applications.
 
+---
+
+---
+
+## Encryption-Decryption Table: 
+<img src="./photos/table.png">
