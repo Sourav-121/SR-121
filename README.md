@@ -15,3 +15,12 @@
 - **Course Title:** Mathematical Analysis for Computer Science  
 - **Course Code:** CSE 361  
 
+---
+
+## 🧑‍💻 Submitted By
+
+**Name:** Sourav Roy  
+**Student ID:** 2102008  
+**Level:** 3  
+**Semester:** II  
+**Department:** Computer Science and Engineering
