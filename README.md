@@ -35,6 +35,6 @@
 
 ---
 
-### Description:
+### 🧠 Algorithm Philosophy:
 SR is a custom-designed symmetric cryptographic algorithm developed to encrypt and decrypt messages composed of letters and digits. It is designed for secure handling of variable-length input. 
 
