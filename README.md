@@ -87,6 +87,7 @@ The encryption process follows a position-aware and key-based mapping system. He
    where `K` is the key , ⌊(k/2)⌋ will give the floor value of the result after dividing the key by 2.
    
 <br>
+
 4. **Now Encrypt using the following formula:**  
    
 `Ci= [Ki + {(Ni+121) mod 36}] mod 36`
