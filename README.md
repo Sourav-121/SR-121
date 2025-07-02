@@ -60,3 +60,45 @@ SR is a custom-designed symmetric cryptographic algorithm developed to encrypt a
 
 ## Position Table: 
 <img src="./table.png">
+
+---
+
+## 🔐 Encryption Process:
+
+The encryption process follows a position-aware and key-based mapping system. Here's a step-by-step breakdown:
+
+### 📥 Steps for Encryption:
+
+1. **Determine position:**  
+   Let `xi` be the position (0–35) of the *i-th* character from the plaintext, using the character-to-value table.
+
+2. **Extend key:**  
+   Repeat or truncate the key's digits to match the length of the plaintext. Let `Ki` be the digit at position *i* in the extended key.
+
+3. **Compute new position according to key:**  
+   Calculate the transformed index using:  
+   
+
+\[
+   N_i = (x_i + \left\lfloor \frac{k}{2} \right\rfloor) \mod 36
+   \]
+
+
+   where `k` is the key .
+
+4. **Now Encrypt using the following formula:**  
+   
+
+\[
+   C_i = \left( K_i + \left( (N_i + 121) \mod 36 \right) \right) \mod 36
+   \]
+
+
+
+5. **Map to encrypted character:**  
+   Use the value `Ci` from  the position table.
+
+---
+
+
+
