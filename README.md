@@ -69,11 +69,11 @@ The encryption process follows a position-aware and key-based mapping system. He
 
 ### 📥 Steps for Encryption:
 
-1. **Determine position:**  
-   Let `xi` be the position (0–35) of the *i-th* character from the plaintext, using the character-to-value table.
-
-2. **Extend key:**  
+1. **Extend key:**  
    Repeat or truncate the key's digits to match the length of the plaintext. Let `Ki` be the digit at position *i* in the extended key.
+   
+2. **Determine position:**  
+   Let `xi` be the position (0–35) of the *i-th* character from the plaintext, using the character-to-value table.
 
 3. **Compute new position according to key:**  
    Calculate the transformed index using:
@@ -110,12 +110,10 @@ The decryption process reverses the encryption logic to accurately retrieve the 
 
 ### 📤 Steps for Decryption
 
-1. **Extract Cipher Position Value:**  
-   Determine the numeric position `Ci` (0–35) of the *i-th* character in the ciphertext using the character-to-value table.
-
-2. **Extend key:**  
+1. **Extend key:**  
    Repeat or truncate the key's digits to match the length of the plaintext. Let `Ki` be the digit at position *i* in the extended key.
-   
+2. **Extract Cipher Position Value:**  
+   Determine the numeric position `Ci` (0–35) of the *i-th* character in the ciphertext using the character-to-value table.
 
 3. **Calculate Intermediate Position:**  
    Using the digit `Ki` from the repeated key at position *i*, compute:  
