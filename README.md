@@ -89,9 +89,7 @@ The encryption process follows a position-aware and key-based mapping system. He
 
 4. **Now Encrypt using the following formula:**  
    
-<br>
-`    Ci= [Ki + {(Ni+121) mod 36}] mod 36    `
-<br>
+`Ci= [Ki + {(Ni+121) mod 36}] mod 36`
 
 where, `Ki` is the position value of the ` i-th `digit of the key. 
 
