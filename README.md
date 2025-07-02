@@ -151,6 +151,26 @@ key= 4635
 
 **Repeat key to match the length: 463546 , Ki is the i-th position of the repeated key.**
 
-<img
+<img src="./photos/Encryption.png">
 
+<br>
 
+```text
+Plaintext= CSE 361
+Ciphertext=WEX OQN
+```
+
+---
+
+## Decryption: 
+
+**Repeat key to match the length: 463546 , Ki is the i-th position of the repeated key.**
+<img src="./photos/Decryption.png">
+
+<br>
+
+```text
+Plaintext = CSE 361
+Ciphertext = WEX OQN
+Decrypted text = CSE 361
+```
