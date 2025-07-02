@@ -104,5 +104,40 @@ where, `Ki` is the position value of the ` i-th `digit of the key.
 
 ---
 
+## 🔓 Decryption Process (SR Algorithm)
+
+The decryption process reverses the encryption logic to accurately retrieve the original plaintext character using modular arithmetic and positional offsets.
+
+### 📤 Steps for Decryption
+
+1. **Extract Cipher Position Value:**  
+   Determine the numeric position `Ci` (0–35) of the *i-th* character in the ciphertext using the character-to-value table.
+
+2. **Extend key:**  
+   Repeat or truncate the key's digits to match the length of the plaintext. Let `Ki` be the digit at position *i* in the extended key.
+   
+
+3. **Calculate Intermediate Position:**  
+   Using the digit `Ki` from the repeated key at position *i*, compute:  
+   
+
+```text
+Ni=[{ (Ci-Ki) mod36} – 121] mod 36
+```
+here, `Ni` is the `i-th` position of intermediate plaintext.
+
+4. **Determine Original Plaintext Position:**  
+   Compute the main position using:  
+   
+```text
+Mi={Ni – ⌊(K/2)⌋ }mod 36
+``` 
+
+   Where `k` is the main key value and ⌊(K/2)⌋ gives the floor value of the result after dividing the key by 2.
+
+5. **Retrieve Plaintext Character using position table:**  
+   Use the value `Mi` to map back to the corresponding letter or digit using the character-value lookup table.
+
+---
 
 
