@@ -179,7 +179,7 @@ Decrypted text = CSE 361
 ---
 
 # 🌺 Flowchart: 
-<img src="./Encryption_Decryption_Flowchart.png">
+<img src="./Encryption-Decryption_Flowchart.png">
 
 ---
 
