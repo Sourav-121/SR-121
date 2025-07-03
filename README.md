@@ -62,7 +62,7 @@ SR-121 is a custom-designed symmetric cryptographic algorithm developed to encry
 ---
 
 ## 🍉 Position Table: 
--- For clarity, the table is shown alternating between green and white rows. The green rows display the numerical values ​​of the letters, while the white rows show the letters themselves.
+- For clarity, the table is shown alternating between green and white rows. The green rows display the numerical values ​​of the letters, while the white rows show the letters themselves.
 <img src="./table.png">
 
 ---
